@@ -50,6 +50,16 @@ a:hover {
 	
 }
 
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: rgb(222,184,135);
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+
 /* Header and Footer
 --------------------------- */
 header, footer {
@@ -85,6 +95,12 @@ h1 {
 h3 ~ p {
     margin-left: 40px;
 }
+.download {
+  position: absolute;
+  bottom: 40;
+  right: 0;
+}
+
 
 /* Navigation
 -------------------------*/
