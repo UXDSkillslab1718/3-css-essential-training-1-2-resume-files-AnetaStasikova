@@ -47,6 +47,7 @@ a:hover {
 .col-wide {
     width: 70%;
     float: left;
+	
 }
 
 /* Header and Footer
@@ -65,6 +66,7 @@ footer {
 }
 /* Header */
 .profile-img {
+	padding: 50px;
     border-radius: 50%;
 }
 h1, header h2, footer h2{
@@ -83,6 +85,24 @@ h1 {
 h3 ~ p {
     margin-left: 40px;
 }
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: rgb(255,250,240);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 
 
 
